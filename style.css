@@ -1,0 +1,166 @@
+#sobreMi,
+#skills,
+#educacion{
+  padding-top: 100px 0 100px 0;
+}
+#presentacion {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-image: url("https://img.freepik.com/fotos-premium/tecnologia-informacion-codigo-binario-digital-fondo-bucle-interrupcion-4k_697634-164.jpg");
+  background-size: cover;
+  background-position: center; 
+}
+#sobreMi{
+  background-color: #1e2326;
+}
+#skills {
+  background-color: #252A2E;
+}
+
+#educacion {
+  background-color: #1e2326;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  color: #ffffff;
+}
+h5, h3, li, p{
+  color: #ffffff;
+}
+
+.card{
+  background-color: #1e2326;
+}
+.card-title{
+  color: #ffffff;
+}
+.card-text{
+  color: #ccc;
+}
+.p-datos{
+  color:rgb(43, 220, 220)
+}
+  
+.social-link {
+  font-size: 24px;
+  color: white;
+  margin: 0 5px;
+}
+.navbar-brand {
+  font-size: 24px;
+}
+.navbar-nav .nav-link {
+  font-size: 18px;
+}
+/*Presentacion*/
+.card-presentacion{
+  width: 18rem;
+  height: 100%;
+}
+/*Sobre mi*/
+@media (max-width: 767px) {
+  .offset-md-2 {
+    margin-left: 0;
+  }
+  
+  .col {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  
+  .datos-titulo {
+    text-align: left;
+  }
+}
+
+/*Educacion*/
+.img-logo{
+  padding-top: 10px;
+  width: 250px;
+  height: 120px;
+}
+.card-edu{
+  border: 1px solid rgb(43, 220, 220);
+}
+
+
+/*skills*/
+.container-skill {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 45%;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.progress-bar {
+  background-color: #f2f2f2;
+  height: 15px;
+  border-radius: 1px;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 1px;
+}
+
+.progress-text {
+  color :#f2f2f2;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Estilos CSS para las barras de progreso */
+/* Hard-skills */
+.progress-sql {
+  width: 85%;
+  background-color: rgb(43, 220, 220);
+}
+.progress-c {
+  width: 90%;
+  background-color:  rgb(43, 220, 220);
+}
+.progress-js {
+  width: 50%;
+  background-color: rgb(43, 220, 220);
+}
+.progress-python {
+  width: 75%;
+  background-color: rgb(43, 220, 220);
+}
+.progress-mic {
+  width: 90%;
+  background-color: rgb(43, 220, 220);
+}
+/* soft-skills */
+.progress-compañerismo {
+  width: 85%;
+  background-color: rgb(43, 220, 220);
+}
+.progress-comunicacion {
+  width: 75%;
+  background-color: rgb(43, 220, 220);
+}
+.progress-responsabilidad {
+  width: 95%;
+  background-color: rgb(43, 220, 220);
+}
+.progress-compromiso {
+  width: 80%;
+  background-color: rgb(43, 220, 220);
+}
+.progress-resolucion {
+  width: 85%;
+  background-color: rgb(43, 220, 220);
+}
